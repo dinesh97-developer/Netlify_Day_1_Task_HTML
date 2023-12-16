@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="https:httpbin.org/post" method="post">
+    <p>
+        <label for="FN">FirstName</label>
+            <input type="text" name="FN" id="FN" placeholder="Enter your First Name" required>
+    </p>
+    <p>
+        <label for="MN">Midle Name</label>
+            <input type="text" name="MN" id="MN" placeholder="Enter your Midle Name">
+    </p>
+    <p>
+        <label for="LN">Last Name</label>
+            <input type="text" name="LN" id="LN" placeholder="Enter your Last Name" required>
+    </p>
+    <p>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email id" required>
+    </p>
+    <p>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+    </p>
+    <p>
+        <input type="submit" value="submit" formaction="https:httpbin.org/post" formmethod="post">
+    </p>
+</form>
+
+</body>
+</html>
